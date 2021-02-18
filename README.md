@@ -9,9 +9,9 @@ The Proof of Authority (PoA) algorithm is typically used for private blockchain 
         * ./geth --datadir node2 account new
 
 
- ![screenshot1](screenshot/screenshot1.png)
+ ![screenshot1](https://github.com/promisinghan/Blockchain/blob/main/screenshot/screenshot1.PNG)
 
-
+https://github.com/promisinghan/Blockchain/blob/main/screenshot/screenshot1.PNG
 
 2. Next, generate your genesis block.
 
@@ -99,7 +99,7 @@ The Proof of Authority (PoA) algorithm is typically used for private blockchain 
 
 ![screenshot8](screenshot/screenshot8.png)
 
-    * Click the `Check TX Status` when the green message pops up, confirm the logout:
+   * Click the `Check TX Status` when the green message pops up, confirm the logout:
 
     * You should see the transaction go from `Pending` to `Successful` in around the same blocktime you set in the genesis.
 
