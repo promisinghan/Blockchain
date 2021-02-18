@@ -1,0 +1,46 @@
+=============== Feb 10, 2021 (EST) ===============
+17:46:21.204536 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+17:46:21.392420 db@open opening
+17:46:21.482423 version@stat F·[] S·0B[] Sc·[]
+17:46:21.490401 db@janitor F·2 G·0
+17:46:21.490401 db@open done T·97.9816ms
+=============== Feb 10, 2021 (EST) ===============
+18:03:19.225242 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+18:03:19.228234 version@stat F·[] S·0B[] Sc·[]
+18:03:19.229231 db@open opening
+18:03:19.229231 journal@recovery F·1
+18:03:19.230228 journal@recovery recovering @1
+18:03:19.240201 journal@drop journal-1 S·0B "missing chunk part"
+18:03:19.289197 memdb@flush created L0@2 N·1885 S·61KiB "loc..seq,v3":"version,v1"
+18:03:19.293187 version@stat F·[1] S·61KiB[61KiB] Sc·[0.25]
+18:03:19.362208 db@janitor F·3 G·0
+18:03:19.362208 db@open done T·132.9765ms
+18:05:10.125424 db@close closing
+18:05:10.170304 db@close done T·44.8808ms
+=============== Feb 10, 2021 (EST) ===============
+18:05:25.036240 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+18:05:25.041226 version@stat F·[1] S·61KiB[61KiB] Sc·[0.25]
+18:05:25.041226 db@open opening
+18:05:25.042224 journal@recovery F·1
+18:05:25.042224 journal@recovery recovering @3
+18:05:25.099071 memdb@flush created L0@5 N·341 S·12KiB "loc..seq,v1892":"n:\xe2..ong,v2227"
+18:05:25.101069 version@stat F·[2] S·74KiB[74KiB] Sc·[0.50]
+18:05:25.187834 db@janitor F·4 G·0
+18:05:25.187834 db@open done T·146.6086ms
+18:05:25.246191 table@compaction L0·2 -> L1·0 S·74KiB Q·2229
+18:05:25.290588 table@build created L1@8 N·1593 S·64KiB "loc..seq,v1892":"version,v1"
+18:05:25.290588 version@stat F·[0 1] S·64KiB[0B 64KiB] Sc·[0.00 0.00]
+18:05:25.291584 table@compaction committed F-1 S-10KiB Ke·0 D·633 T·45.393ms
+18:05:25.294577 table@remove removed @2
+=============== Feb 11, 2021 (EST) ===============
+01:27:58.617680 memdb@flush N·37441 S·3MiB
+01:27:58.792539 memdb@flush created L0@10 N·37441 S·690KiB "loc..seq,v34441":"n:\xff..ail,v2603"
+01:27:58.792539 version@stat F·[1 1] S·754KiB[690KiB 64KiB] Sc·[0.25 0.00]
+01:27:58.794955 memdb@flush committed F·1 T·177.0352ms
+01:27:58.799539 journal@remove removed @6
+01:28:39.940524 table@compaction L0·1 -> L1·1 S·754KiB Q·40082
+01:28:40.051220 table@build created L1@11 N·9027 S·359KiB "loc..seq,v34441":"version,v1"
+01:28:40.052216 version@stat F·[0 1] S·359KiB[0B 359KiB] Sc·[0.00 0.00]
+01:28:40.052216 table@compaction committed F-1 S-395KiB Ke·0 D·30007 T·110.6959ms
+01:28:40.054721 table@remove removed @10
+01:28:40.061192 table@remove removed @8
